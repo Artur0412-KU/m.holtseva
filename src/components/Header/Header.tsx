@@ -10,8 +10,8 @@ export default function Header() {
             <a href="#about" className='transition hover:text-zinc-900/45'>Про мене</a>
             <a href="#courses" className='transition hover:text-zinc-900/45'>Курси</a>
             <a href="#certificates" className='transition hover:text-zinc-900/45'>Сертифікати</a>
-            <a href="" className='transition hover:text-zinc-900/45'>Відгуки</a>
-            <a href="" className='transition hover:text-zinc-900/45'>Зв’язатися</a>
+            <a href="#reviews" className='transition hover:text-zinc-900/45'>Відгуки</a>
+            <a href="#call" className='transition hover:text-zinc-900/45'>Зв’язатися</a>
         </ul> 
         <Burger/>
     </div>

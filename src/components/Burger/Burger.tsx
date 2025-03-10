@@ -18,19 +18,19 @@ export default function Burger() {
                <img src={Close} className='cursor-pointer'/>
             </label>
             <li>
-                <a href=''>Про мене</a>
+                <a href='#about'>Про мене</a>
             </li>
             <li>
-                <a href=''>Курси</a>
+                <a href='#courses'>Курси</a>
             </li>
             <li>
-                <a href=''>Сертифікати</a>
+                <a href='#certificates'>Сертифікати</a>
             </li>
             <li>
-                <a href=''>Відгуки</a>
+                <a href='#reviews'>Відгуки</a>
             </li>
             <li>
-                <a href=''>Зв’язатися</a>
+                <a href='#call'>Зв’язатися</a>
             </li>
           </ul>
         </div>

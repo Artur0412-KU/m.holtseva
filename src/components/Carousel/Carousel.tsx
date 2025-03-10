@@ -15,7 +15,7 @@ import 'swiper/css';
 export default function Carousel() {
     const swiperRef = useRef<any>(null);
     return (
-        <div className='px-[70px] py-[100px]'>
+        <div className='px-[70px] py-[100px]' id='reviews'>
             <h1 className='text-[36px] font-bold text-center text-[#968377] mb-[50px] [@media(max-width:1024px)]:text-[32px]'>Відгуки</h1>
          <Swiper
            ref={swiperRef}
