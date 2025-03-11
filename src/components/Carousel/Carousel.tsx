@@ -17,7 +17,8 @@ export default function Carousel() {
     return (
         <div className='px-[70px] py-[100px]' id='reviews'>
             <h1 className='text-[36px] font-bold text-center text-[#968377] mb-[50px] [@media(max-width:1024px)]:text-[32px]'>Відгуки</h1>
-         <Swiper
+            <div className="relative z-0">
+              <Swiper
            ref={swiperRef}
           spaceBetween={30}
           slidesPerView={3}
@@ -73,7 +74,9 @@ export default function Carousel() {
           <SwiperSlide>
           <img src={Review10} alt="review-1" className='w-[90%]'/>
           </SwiperSlide>
-        </Swiper>   
+        </Swiper>
+            </div>
+            
         </div>
         
       );
