@@ -8,3 +8,11 @@ body {
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
 }
+
+.custom-pagination .swiper-pagination-bullet {
+    @apply bg-[#6f5f56]; /* Custom size & color */
+}
+  
+.custom-pagination .swiper-pagination-bullet-active {
+    @apply bg-[#968377] scale-110; /* Active dot effect */
+}
